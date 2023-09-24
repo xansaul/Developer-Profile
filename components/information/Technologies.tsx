@@ -7,7 +7,7 @@ export const Technologies = () => {
         <h2 className="text-3xl font-semibold block mt-4">Tecnologías</h2>
         <div className="grid lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-y-4 md:gap-x-5 gap-x-3 w-11/12 m-auto mt-8 justify-center items-center">
           <div className="bg-white md:w-full sm:w-36 w-full rounded-md min-h-full grid place-items-center p-3">
-            <Image width={300} height={300} src="/technologies/Django.png" className="w-auto"  alt="Django" />
+            <Image width={300} height={300} src="/technologies/django.png" className="w-auto"  alt="Django" />
           </div>
           <div className="bg-white md:w-full sm:w-36 w-full rounded-md min-h-full grid place-items-center p-3">
             <Image width={300} height={300} src="/technologies/github.png" className="w-auto"  alt="github" />
