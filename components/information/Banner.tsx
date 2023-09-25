@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 export const Banner = () => {
   return (
     <div>
-      <div className="flex md:justify-start justify-center items-center md:h-[39rem] h-[33rem]">
+      <div className="flex md:justify-start justify-center items-center md:h-[43rem] h-[33rem]">
         <h2 className="md:text-6xl text-5xl font-bold md:text-start text-center">
           
           <Typewriter
