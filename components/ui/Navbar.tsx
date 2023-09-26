@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav 
       className="md:py-4 py-6 sm:px-8 px-4 top-0 md:px-28 
-        backdrop-blur-md bg-[#000126]/70 flex justify-between items-center
+        backdrop-blur-md bg-[#000128]/70 flex justify-between items-center
         fixed w-full 
         "
     >
