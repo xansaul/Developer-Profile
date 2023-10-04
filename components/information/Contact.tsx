@@ -11,11 +11,10 @@ export const Contact = () => {
         <h3 className="mb-3 md:text-3xl text-2xl font-bold">Contáctame</h3>
         <p className=" font-medium md:text-xl text-base">
           Si te interesa mi perfil como ingeniero de software y quieres que
-          desarrolle algún proyecto para ti, ofrezco mi servicio como freelance
-          o si necesitas alguna asesoría. Te dejo mis redes sociales en la parte
-          de abajo.
+          desarrolle algún proyecto para ti, o si necesitas alguna asesoría,
+          ofrezco mi servicio como freelance. Te dejo mis redes sociales en la
+          parte de abajo.
         </p>
-        
       </div>
     </div>
   );
