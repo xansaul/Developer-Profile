@@ -2,16 +2,15 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="w-full h-auto p-3 mt-6">
-      <div className="flex flex-wrap gap-5 sm:justify-end items-center justify-center sm:mx-32">
-        <h2 className="text-white">Encuentro Cercano Del Tercer Tipo</h2>
-        <div className="flex gap-6">
+    <footer className="w-full h-auto p-3 ">
+      <div className="flex flex-wrap gap-5 items-center justify-center sm:mx-32">
+        <div className="flex gap-6 mb-20  ">
           <a href="https://github.com/XanSaulDev" target="_blank">
             <Image
               src="/svg/github.svg"
               alt="logo github"
-              width={25}
-              height={25}
+              width={35}
+              height={35}
             />
           </a>
 
@@ -22,8 +21,8 @@ export const Footer = () => {
             <Image
               src="/svg/linkedin.svg"
               alt="logo linkedin"
-              width={25}
-              height={25}
+              width={35}
+              height={35}
             />
           </a>
 
@@ -31,8 +30,8 @@ export const Footer = () => {
             <Image
               src="/svg/instagram.svg"
               alt="logo instagram"
-              width={25}
-              height={25}
+              width={35}
+              height={35}
             />
           </a>
         </div>

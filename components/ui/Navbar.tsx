@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-export const Navbar = () => {
+export const Navbar = () => {0
   return (
     <nav 
       className="md:py-4 py-6 sm:px-8 px-4 top-0 md:px-28 
@@ -22,7 +22,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className="cursor-pointer">
-          <Link smooth spy to="contacts" href="#experience">
+          <Link smooth spy to="contacto" href="#contacto">
             Contacto
           </Link>
         </li>
