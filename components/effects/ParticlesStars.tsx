@@ -40,7 +40,7 @@ export const ParticlesStars = () => {
                 default: 'bounce',
               },
               random: false,
-              speed: .2,
+              speed: .07,
               straight: false,
             },
             number: {
@@ -48,7 +48,7 @@ export const ParticlesStars = () => {
                 enable: true,
                 area: 600,
               },
-              value: 140,
+              value: 120,
             },
             opacity: {
               value: 0.5,
@@ -57,7 +57,7 @@ export const ParticlesStars = () => {
               type: 'circle',
             },
             size: {
-              value: { min: 0.2, max: 2.5 },
+              value: { min: 1, max: 2.5 },
             },
           },
           detectRetina: true,
