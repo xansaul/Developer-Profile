@@ -19,20 +19,10 @@ export const Experience = () => {
           />
           <div>
             <p className="mt-4 sm:text-xl">
-              Trabajé como desarrollador web del 2021 de enero al 2022 de
-              noviembre en OutDev una empresa emergente de Guadalajara, Jalisco,
-              en la cual me encargaba de dar mantenimiento a aplicaciones web,
-              desde iniciarlas hasta darles mantenimiento. Estas aplicaciones
-              estaban desarrolladas en React y Django. Además, en algunas
-              ocasiones realizaba despliegues en los servidores.
-            </p>
-            <p className="mt-4 sm:text-xl">
-              {" "}
-              Después de quedar en la universidad, renuncié a la empresa, pero
-              regresé tiempo después debido a necesidades económicas. En mi
-              regreso, me encargué de desarrollar aplicaciones de realidad
-              virtual en Unity, las cuales estaban destinadas a brindar
-              experiencias inmersivas para exponer arte.
+            Trabajé como desarrollador web desde enero del 2021 hasta noviembre del 2022 en OutDev, 
+            una empresa emergente de Guadalajara, Jalisco. 
+            Durante mi tiempo en la empresa, trabajé en proyectos utilizando React y Django,
+             además de crear experiencias inmersivas con Unity.
             </p>
             <p className="mt-4 sm:text-xl">
               {" "}

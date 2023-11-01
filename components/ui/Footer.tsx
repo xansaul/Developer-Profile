@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="w-full h-auto p-3 ">
       <div className="flex flex-wrap gap-5 items-center justify-center sm:mx-32">
-        <div className="flex gap-6 mb-20  ">
+        <div className="flex gap-6 md:mb-16 mb-6 ">
           <a href="https://github.com/XanSaulDev" target="_blank">
             <Image
               src="/svg/github.svg"

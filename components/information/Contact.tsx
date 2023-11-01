@@ -4,8 +4,8 @@ export const Contact = () => {
   return (
     <div className="flex justify-center items-center mb-4 mt-10" id="contacto">
       <div
-        className="md:py-14 py-10 px-6 top-0 md:px-28 
-                backdrop-blur-[2px] lg:w-7/12 md:w-6/12 w-12/12 bg-[#000845]/30 
+        className="md:py-14 py-10 px-6 top-0 md:px-14 
+                backdrop-blur-[2px] lg:w-[38rem]  w-12/12 bg-[#00073D]/70 
                 "
       >
         <h3 className="mb-3 md:text-3xl text-2xl font-bold">Contáctame</h3>
