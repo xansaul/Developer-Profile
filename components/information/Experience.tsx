@@ -38,7 +38,7 @@ export const Experience = () => {
 
           <div className="grid md:grid-cols-2 gap-4 ">
             <p className="mt-4 sm:text-xl self-center ">
-              Pequeño proyecto, el cual simula la fuerza de aceleración la
+              Pequeño proyecto, el cual simula la aceleración de la
               gravedad de los cuerpos celestes con la ley de gravitación
               universal, y otra manera mas simplificada.
             </p>
