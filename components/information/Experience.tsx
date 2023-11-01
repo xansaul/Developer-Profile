@@ -38,7 +38,7 @@ export const Experience = () => {
 
           <div className="grid md:grid-cols-2 gap-4 ">
             <p className="mt-4 sm:text-xl self-center ">
-              Pequeño proyecto, el cual simula la aceleración de la
+              Pequeño proyecto en Unity, el cual simula la aceleración de la
               gravedad de los cuerpos celestes con la ley de gravitación
               universal, y otra manera mas simplificada.
             </p>
@@ -78,7 +78,7 @@ export const Experience = () => {
             </div>
 
             <p className="mt-4 sm:text-xl self-center ">
-              Proyecto que usa ecuaciones diferenciales para, calcular el
+              Página web que usa ecuaciones diferenciales para calcular el
               crecimiento exponencial de sistemas de población.
             </p>
           </div>
