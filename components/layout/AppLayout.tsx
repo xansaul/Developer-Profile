@@ -8,6 +8,8 @@ interface Props {
   children?: ReactNode;
 }
 
+const origin = typeof window === "undefined" ? "" : window.location.origin;
+
 export const AppLayout: FC<Props> = ({ children }) => {
   return (
     <>
@@ -24,6 +26,8 @@ export const AppLayout: FC<Props> = ({ children }) => {
           property="og:description"
           content="Mira el perfil de Saul Huerta como ingeniero de software"
         />
+        <meta property="og:image" content={`${origin}/banner.png`} />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></link>
       </Head>
       <header>
         <Navbar />
