@@ -47,6 +47,7 @@ export const Experience = () => {
               <Link
                 href="https://fanciful-mandazi-f672f4.netlify.app/"
                 target="_blank"
+                title="Unity Planets"
               >
                 <Image
                   src="/planets.png"
@@ -69,10 +70,11 @@ export const Experience = () => {
               >
                 <Image
                   src="/calc-population.png"
-                  alt="Calc Population page"
+                  alt="Calcular Población página"
                   width={600}
                   height={600}
                   quality={60}
+                  title="Calcularo población"
                 />
               </Link>
             </div>

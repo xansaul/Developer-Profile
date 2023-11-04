@@ -14,15 +14,15 @@ export const AppLayout: FC<Props> = ({ children }) => {
       <Head>
         <title>XanSaul</title>
         <meta name="author" content="Saul Huerta" />
-        <meta name="description" content="Saul Huerta software engineer" />
-        <meta name="keywords" content="desarrollador, developer, saul, huerta, xansaul" />
+        <meta name="description" content="Saul Huerta ingeniero de software" />
+        <meta name="keywords" content="desarrollador, developer, Saul Huerta, xansaul" />
         <meta
           property="og:title"
-          content="Saul Huerta software engineer"
+          content="XanSaul ingeniero de software"
         />
         <meta
           property="og:description"
-          content="Mira el perfil de Saul Huerta como software engineer"
+          content="Mira el perfil de Saul Huerta como ingeniero de software"
         />
       </Head>
       <header>
