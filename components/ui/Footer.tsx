@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="w-full h-auto p-3 ">
       <div className="flex flex-wrap gap-5 items-center justify-center sm:mx-32 flex-col">
         <div className="flex gap-6  ">
-          <a href="https://github.com/XanSaulDev" target="_blank" title="Github xansaul">
+          <a href="https://github.com/xansaul" target="_blank" title="Github xansaul">
             <Image
               src="/svg/github.svg"
               alt="logo github"
