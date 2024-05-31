@@ -1,22 +1,13 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { ProfileCard } from "../cards/ProfileCard";
 
 export const Banner = () => {
   return (
-    <div>
-      <div className="flex md:justify-center justify-center md:h-screen h-[40rem] flex-col gap-7">
-        <h1 className="md:text-6xl text-5xl font-bold md:text-start text-center">
-          XanSaul
-        </h1>
-        <span className="md:text-3xl text-2xl font-semibold md:text-start text-center">
-          Ingeniero de software, 
-          <Typewriter
-            words={[" desarrollador fullstack y aventurero."]}
-            typeSpeed={60}
-            cursor
-          />
-        </span>
+    <>
+      <div className="xl:w-4/12 lg:w-6/12 md:w-6/12 sm:w-7/12 w-11/12 m-auto">
+        <ProfileCard />
       </div>
-    </div>
+    </>
   );
 };
