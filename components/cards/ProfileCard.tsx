@@ -19,7 +19,7 @@ export const ProfileCard = () => {
       />
       <h1 className="text-2xl font-bold text-center">XanSaul</h1>
       <p className="text-center mt-1">Ingeniero de software</p>
-      <SocialMedia />
+      <SocialMedia className="w-6 h-6" />
       <div className="mt-2">
         <article>
           <h2 className="text-xl font-semibold">Sobre mi</h2>
