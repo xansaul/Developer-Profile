@@ -21,14 +21,14 @@ export const ParticlesStars = () => {
         options={{
           background: {
             color: {
-              value: '#00012C',
+              value: '#00012A',
             },
           },
           fullScreen:{
             enable:true,
             zIndex:-1
           },
-          fpsLimit: 120,
+          fpsLimit: 60,
           particles: {
             color: {
               value: ['#AFC1EF', '#6685D3'],
@@ -40,15 +40,15 @@ export const ParticlesStars = () => {
                 default: 'bounce',
               },
               random: false,
-              speed: .07,
+              speed: .05,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 600,
+                area: 500,
               },
-              value: 120,
+              value: 40,
             },
             opacity: {
               value: 0.5,
@@ -60,7 +60,7 @@ export const ParticlesStars = () => {
               value: { min: 1, max: 2.5 },
             },
           },
-          detectRetina: true,
+
         }}
       />
     </div>

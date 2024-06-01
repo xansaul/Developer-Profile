@@ -16,8 +16,8 @@ export const AppLayout: FC<Props> = ({ children }) => {
       <Head>
         <title>XanSaul</title>
         <meta name="author" content="Saul Huerta" />
-        <meta name="description" content="Saul Huerta ingeniero de software" />
-        <meta name="keywords" content="desarrollador, developer, Saul Huerta, xansaul" />
+        <meta name="keywords" content="desarrollador, developer, Saul Huerta, xansaul, Alejandro Saul Huerta Murillo, Saul" />
+        <meta name="description" content="Sitio web de Alejandro Saul Huerta Murillo, ingeniero de software." />
         <meta
           property="og:title"
           content="XanSaul ingeniero de software"
@@ -29,12 +29,10 @@ export const AppLayout: FC<Props> = ({ children }) => {
         <meta property="og:image" content={`${origin}/banner.png`} />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></link>
       </Head>
-      <header>
-        <Navbar />
-      </header>
+      
       <ParticlesStars />
 
-      <main className="md:px-10 md:py-2 px-4 py-2">{children}</main>
+      <main className="lg:w-8/12 md:w-9/12 m-auto">{children}</main>
 
 
       <Footer />

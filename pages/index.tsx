@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <AppLayout>
       <Banner />
-      <Experience />
       <Technologies />
-      <Contact />
+      <Experience />
+
     </AppLayout>
   );
 }
