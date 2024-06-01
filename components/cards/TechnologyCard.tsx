@@ -16,7 +16,7 @@ export const TechnologyCard = ({ alt, height, src, width }:Props) => {
         height={height}
         src={src}
         alt={alt}
-        priority={false}
+        priority
       />
     </div>
   );

@@ -15,8 +15,8 @@ export const SocialMedia = ({ className = "" }:{className?: string}) => {
         className={className}
           src="/svg/github.svg"
           alt="logo github"
-          width={24}
-          height={24}
+          width={0}
+          height={0}
         />
       </a>
 
@@ -29,8 +29,8 @@ export const SocialMedia = ({ className = "" }:{className?: string}) => {
         className={className}
           src="/svg/linkedin.svg"
           alt="logo linkedin"
-          width={24}
-          height={24}
+          width={0}
+          height={0}
         />
       </a>
 
@@ -43,8 +43,8 @@ export const SocialMedia = ({ className = "" }:{className?: string}) => {
         className={className}
           src="/svg/instagram.svg"
           alt="logo instagram"
-          width={24}
-          height={24}
+          width={0}
+          height={0}
         />
       </a>
     </div>
