@@ -15,6 +15,7 @@ export const ProfileCard = () => {
         alt="Profile picture"
         width={120}
         height={120}
+        priority
       />
       <h1 className="text-2xl font-bold text-center">XanSaul</h1>
       <p className="text-center mt-1">Ingeniero de software</p>
