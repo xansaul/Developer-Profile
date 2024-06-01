@@ -16,7 +16,7 @@ export const AppLayout: FC<Props> = ({ children }) => {
       <Head>
         <title>XanSaul</title>
         <meta name="author" content="Saul Huerta" />
-        <meta name="keywords" content="desarrollador, developer, Saul Huerta, xansaul, Alejandro Saul Huerta Murillo" />
+        <meta name="keywords" content="desarrollador, developer, Saul Huerta, xansaul, Alejandro Saul Huerta Murillo, Saul" />
         <meta name="description" content="Sitio web de Alejandro Saul Huerta Murillo, ingeniero de software." />
         <meta
           property="og:title"
