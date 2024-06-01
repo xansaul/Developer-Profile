@@ -25,10 +25,10 @@ export const TimeLine = () => {
             Enero 2021 - noviembre 2022
           </time>
           <h3 className="text-lg font-bold text-white my-2">
-            Desarrollador VR OutDev
+            Desarrollador de Realidad Virtual OutDev
           </h3>
           <p className="mb-4 text-base font-normal text-white">
-            Experiencias inmersivas con Unity.
+            Trabajé como desarrollador de realidad virtual, generando experiencias inmersivas con Unity y Three.js.
           </p>
         </li>
       </ol>
