@@ -21,7 +21,7 @@ export const ParticlesStars = () => {
         options={{
           background: {
             color: {
-              value: '#000128',
+              value: '#00012A',
             },
           },
           fullScreen:{

@@ -1,15 +1,23 @@
 import Image from "next/image";
 import React from "react";
 
-export const SocialMedia = () => {
+export const SocialMedia = ({ className = "" }:{className?: string}) => {
   return (
     <div className="flex justify-center mt-2 gap-2">
+      
       <a
         href="https://github.com/xansaul"
         target="_blank"
         title="Github xansaul"
+
       >
-        <Image src="/svg/github.svg" alt="logo github" width={24} height={24} />
+        <Image
+        className={className}
+          src="/svg/github.svg"
+          alt="logo github"
+          width={24}
+          height={24}
+        />
       </a>
 
       <a
@@ -18,6 +26,7 @@ export const SocialMedia = () => {
         title="Linkedin xansaul"
       >
         <Image
+        className={className}
           src="/svg/linkedin.svg"
           alt="logo linkedin"
           width={24}
@@ -31,6 +40,7 @@ export const SocialMedia = () => {
         title="Instagram xansaul"
       >
         <Image
+        className={className}
           src="/svg/instagram.svg"
           alt="logo instagram"
           width={24}

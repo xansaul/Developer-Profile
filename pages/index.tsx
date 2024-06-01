@@ -9,7 +9,7 @@ export default function Home() {
       <Banner />
       <Technologies />
       <Experience />
-      <Contact />
+
     </AppLayout>
   );
 }
