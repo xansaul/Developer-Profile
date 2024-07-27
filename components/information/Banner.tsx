@@ -1,5 +1,4 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
 import { ProfileCard } from "../cards/ProfileCard";
 
 export const Banner = () => {

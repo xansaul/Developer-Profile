@@ -1,8 +1,7 @@
 import Head from "next/head";
 import React, { FC, ReactNode } from "react";
 import { ParticlesStars } from "../effects/ParticlesStars";
-import { Link } from "react-scroll";
-import { Footer, Navbar } from "../ui";
+
 
 interface Props {
   children?: ReactNode;
@@ -35,7 +34,7 @@ export const AppLayout: FC<Props> = ({ children }) => {
       <main className="lg:w-8/12 md:w-9/12 m-auto">{children}</main>
 
 
-      <Footer />
+   
     </>
   );
 };

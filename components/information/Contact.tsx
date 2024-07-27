@@ -10,7 +10,7 @@ export const Contact = () => {
                 "
       >
         <h3 className="mb-3 md:text-3xl text-2xl font-bold">Contáctame</h3>
-        <SocialMedia className={"h-10 w-10"} />
+        <SocialMedia />
         <div className="flex flex-wrap gap-5 items-center justify-center sm:mx-32 flex-col">
           <h2 className=" text-xl font-semibold">XanSaul</h2>
           <h2 className="mb-6 text-xl font-semibold">

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import { TimeLine } from "../timeline/TimeLine";
 import { ProjectCard } from "../cards/ProjectCard";
 import { projects } from "@/config/data/projects";
