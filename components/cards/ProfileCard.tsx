@@ -1,7 +1,8 @@
+
 import Image from "next/image";
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
 import { SocialMedia } from "../information/SocialMedia";
+import { MessageTypeWrite } from "../information/MessageTypeWrite";
 
 export const ProfileCard = () => {
   return (
@@ -19,20 +20,14 @@ export const ProfileCard = () => {
       />
       <h1 className="text-2xl font-bold text-center">XanSaul</h1>
       <p className="text-center mt-1">Ingeniero de software</p>
-      <SocialMedia className="w-6 h-6" />
+      <SocialMedia />
       <div className="mt-2">
         <article>
           <h2 className="text-xl font-semibold">Sobre mi</h2>
           <p>
             <span className="font-semibold md:text-start text-center">
               Mi nombre es Saul 👋, soy ingeniero de software,
-              <Typewriter
-                words={[" desarrollador fullstack y aventurero."]}
-                typeSpeed={100}
-                deleteSpeed={100}
-                cursor
-                loop
-              />
+              <MessageTypeWrite message=" desarrollador fullstack y aventurero." />
             </span>
           </p>
         </article>
