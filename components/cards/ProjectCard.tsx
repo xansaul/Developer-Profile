@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 interface Props {
   imageSrc: string;
@@ -36,14 +37,7 @@ export const ProjectCard = ({
             className="transition-all duration-150 text-center p-2 rounded-md text-white w-11 h-11
                       bg-[#131c46] hover:bg-[#192646] hover:shadow-md flex justify-center"
           >
-            <Image
-              src="/svg/github.svg"
-              alt="logo github"
-              width={24}
-              height={24}
-              priority={false}
-              className="w-auto h-auto"
-            />
+            <FaGithub size={26} />
           </a>
         </div>
       </div>
