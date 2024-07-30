@@ -12,7 +12,7 @@ export const SocialMedia = () => {
           href="https://github.com/xansaul"
           target="_blank"
           title="Github xansaul"
-          aria-label="Github"
+          aria-label="Perfil de Github de XanSaul"
         >
           <FaGithub size={26} />
           
@@ -22,7 +22,7 @@ export const SocialMedia = () => {
         href="https://www.linkedin.com/in/alejandro-saul-huerta-murillo-a16a32b221/"
         target="_blank"
         title="Linkedin xansaul"
-        aria-label="Linkedin"
+        aria-label="Perfil de LinkedIn de XanSaul"
       >
         <FaLinkedin size={26} />
       </a>
@@ -31,7 +31,7 @@ export const SocialMedia = () => {
         href="https://www.instagram.com/xansaul/"
         target="_blank"
         title="Instagram xansaul"
-        aria-label="Instagram"
+        aria-label="Perfil de Instagram de XanSaul"
       >
         <FaInstagram size={26} />
       </a>
