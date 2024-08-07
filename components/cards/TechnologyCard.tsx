@@ -10,7 +10,7 @@ interface Props {
 
 export const TechnologyCard = ({ alt, height, src, width }:Props) => {
   return (
-    <div className="bg-white 2xl:w-20 w-16 rounded-md grid place-items-center p-2">
+    <div className="bg-white 2xl:w-20 w-16 rounded-xl grid place-items-center p-2">
       <Image
         width={width}
         height={height}

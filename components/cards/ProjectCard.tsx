@@ -34,7 +34,7 @@ export const ProjectCard = ({
           <a
             href={githubUrl}
             target="_blank"
-            className="transition-all duration-150 text-center p-2 rounded-md text-white w-11 h-11
+            className="transition-all duration-150 text-center p-2 rounded-xl text-white w-11 h-11
                       bg-[#131c46] hover:bg-[#192646] hover:shadow-md flex justify-center"
           >
             <FaGithub size={26} />
