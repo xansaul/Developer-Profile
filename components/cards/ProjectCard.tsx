@@ -16,7 +16,7 @@ export const ProjectCard = ({
   githubUrl,
 }: Props) => {
   return (
-    <div className="h-full justify-self-center w-10/12 lg:w-full md:w-full sm:w-full">
+    <div className="h-full justify-self-center w-full">
       <div className="flex flex-col justify-between h-full rounded-xl bg-[#0d1032] shadow-md p-4">
         <div>
           <div className="w-full overflow-hidden rounded-t-xl h-48">
