@@ -7,8 +7,8 @@ import { MessageTypeWrite } from "../information/MessageTypeWrite";
 export const ProfileCard = () => {
   return (
     <div 
-      className="w-full mx-auto mt-10 mb-7 backdrop-blur-[2px] text-white bg-[#000735]/50
-                  rounded-xl p-5 h-96 shadow-xl shadow-[#040550]"
+      className="w-full mx-auto mt-10 mb-8 backdrop-blur-[2px] text-white bg-[#000735]/70
+                  rounded-xl p-5 h-96 shadow-2xl shadow-[#302c64]/70"
     >
       <Image
         className="w-32 h-32 rounded-full mx-auto"
