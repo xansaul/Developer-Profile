@@ -1,9 +1,9 @@
 import { ParticlesStars } from "@/components/effects/ParticlesStars"
-import { Footer } from "@/components"
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import '@/styles/globals.css'
+import { Footer } from "@/components/ui/Footer"
 
  
 const inter = Inter({ subsets: ['latin'] })
@@ -36,7 +36,7 @@ export default function RootLayout({
         <html lang="es">
             <body className={inter.className}>
                 <ParticlesStars />
-                <main className="lg:w-8/12 md:w-9/12 m-auto">{children}</main>
+                <main className="lg:w-8/12 md:w-10/12 m-auto">{children}</main>
                 <Footer />
             </body>
         </html>
