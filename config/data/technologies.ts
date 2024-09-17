@@ -29,12 +29,12 @@ export const technologies = [
       height: 90,
       alt: "TaildWind"
     },
-    {
-      src: "/technologies/react-native.png",
-      width: 90,
-      height: 90,
-      alt: "React Native"
-    },
+    // {
+    //   src: "/technologies/react-native.png",
+    //   width: 90,
+    //   height: 90,
+    //   alt: "React Native"
+    // },
     {
       src: "/technologies/next.png",
       width: 90,
